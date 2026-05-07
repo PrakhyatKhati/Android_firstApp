@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="32dp"
+    android:gravity="center"
+    android:background="#FFFFFF">
+
+    <!-- Welcome Title -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome to Dashboard!"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        android:textColor="#1F4E78"
+        android:gravity="center"
+        android:layout_marginBottom="24dp" />
+
+    <!-- Welcome Message -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="You have successfully logged in!"
+        android:textSize="18sp"
+        android:textColor="#666666"
+        android:gravity="center"
+        android:layout_marginBottom="48dp" />
+
+    <!-- Divider Line -->
+    <View
+        android:layout_width="80dp"
+        android:layout_height="3dp"
+        android:background="#1F4E78"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="48dp" />
+
+    <!-- User Info Card -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:background="#F5F5F5"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="User: admin"
+            android:textSize="16sp"
+            android:textColor="#1F4E78"
+            android:gravity="center"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Status: Logged In ✓"
+            android:textSize="16sp"
+            android:textColor="#28A745"
+            android:gravity="center" />
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/logoutBtn"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="LOGOUT"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_marginTop="48dp"
+        android:background="#D32F2F"
+        android:textColor="#FFFFFF" />
+
+
+
+
+</LinearLayout>
